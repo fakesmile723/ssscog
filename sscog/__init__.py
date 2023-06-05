@@ -2,5 +2,5 @@ from redbot.core.bot import Red
 
 from .sss import MyCog
 
-def setup(bot: Red):
-    bot.add_cog(MyCog(bot))
+async def setup(bot: Red):
+   await bot.add_cog(MyCog(bot))

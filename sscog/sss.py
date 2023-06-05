@@ -7,9 +7,9 @@ class MyCog(commands.Cog):
 
     @commands.command()
     async def sss(self, ctx):
-        embed = discord.Embed(title="Button Demo", description="Click a button to perform an action", color=discord.Color.blue())
+        embed = discord.Embed(title="verification", description="If you read the rules click on the button that has the answer", color=discord.Color.blue())
 
-        role_button = discord.ui.Button(style=discord.ButtonStyle.primary, label="Assign Role", emoji="✅")
+        role_button = discord.ui.Button(style=discord.ButtonStyle.primary, label="test", emoji="✅")
         role_button.callback = self.assign_role_callback
 
         message_button = discord.ui.Button(style=discord.ButtonStyle.primary, label="Send Ephemeral Message", emoji="📬")

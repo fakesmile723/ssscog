@@ -1,0 +1,28 @@
+{
+    "author": [
+      "FakeSmile"
+    ],
+    "description": "This cog demonstrates button interactions in Red Discord bot.",
+    "disabled": false,
+    "end_user_data_statement": "This cog does not persistently store data about users.",
+    "hidden": false,
+    "install_msg": "Thanks for installing the SSS cog!",
+    "min_bot_version": "3.4.0",
+    "min_python_version": [
+      3,
+      8,
+      1
+    ],
+    "permissions": [],
+    "required_cogs": {},
+    "requirements": [],
+    "short": "SSS",
+    "tags": [
+      "button",
+      "interaction",
+      "role",
+      "message"
+    ],
+    "type": "COG"
+  }
+  

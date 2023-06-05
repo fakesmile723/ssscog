@@ -37,5 +37,5 @@ class MyCog(commands.Cog):
         button.disabled = True
         await interaction.response.edit_message(embed=interaction.message.embeds[0], view=interaction.message.view)
 
-def setup(bot):
-    bot.add_cog(MyCog(bot))
+async def setup(bot):
+   await bot.add_cog(MyCog(bot))
